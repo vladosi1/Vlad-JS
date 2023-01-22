@@ -1,3 +1,50 @@
 body {
-	background: rgb(199, 227, 199);
+	background: rgb(241, 199, 173);
+}
+.container{
+	width: 18em;
+	padding: 0 10px;
+	margin: 10% auto;
+
+}
+.Calculator__V{
+	display: flex;
+	flex-direction: column;
+	margin: 30px 0px 0px 0px;
+
+}
+input {
+	padding-left: 10px;
+	font-size: 25px;
+	height: 30px;
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 200px;
+	margin: 15px;
+}
+.select{
+	width: 40px;
+	display: inline-block;
+	margin: 0px 0px 0px 90px;
+}
+#btn{
+	display: flex;
+	align-self: start;
+	padding: 5px 15px;
+	border-radius: 200px;
+	margin: 0px 0px 0px 70px;
+	border: 1px solid black;
+}
+#return{
+	font-size: 30px;
+	color: red;
+}
+p{
+	font-size: 25px;
+	margin: 20px 0px 0px 20px;
+}
+#operetor{
+	display: inline-block;
+	width: 40px;
+	margin: 0px 0px 0px 90px;
 }
